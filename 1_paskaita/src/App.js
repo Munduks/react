@@ -11,7 +11,7 @@ import "./App.css";
 // import ClassDiv from "./components/ClassDiv";
 // import Greeting from "./components/Greeting";
 // import Card from "./components/Card";
-
+import Product from "../../4_paskaita/src/components/Product";
 // import Products from "./components/Products";
 // import Welcome from "./components/Welcome";
 
@@ -22,6 +22,25 @@ function App() {
   // const name = "Raimonda";
   return (
     <div>
+      <Product
+    image="https://th.bing.com/th/id/OIP.y5Y20F2sk323gRMzBNMYdwHaHa?pid=ImgDet&rs=1"
+      title="Volkswagen GOLF MK2 2022 Calendar"
+      price="10.00Eur"
+      description=12 unique designs
+          All pieces are printed on heavyweight 200 gsm art paper.
+          <br/>
+          Limited to 50 pieces
+          <br/>
+          One size:
+          11.7x16.5 inch/(297x420mm)"
+       availability="10 in stock"
+      <Button onClick={increment}>+</Button>
+      <h2>{count}</h2>
+      <Button onClick={decrement}>-</Button>
+      <p> {category}</p>
+      <Button title="ADD TO CART"/>
+      />;
+      </div>
       {/* <Avatar name="Raimonda Stonkutė" />
       <Avatar name="Robertas Jasas" />
       <Avatar name="Dalytė Stonkienė" /> */}

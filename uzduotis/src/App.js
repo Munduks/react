@@ -1,13 +1,12 @@
-import Product from "./components/Product/Product";
-import calendar from "./images/calendar.jpg";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
     <div>
-      <Product
-        image={calendar}
-        title="Volkswagen GOLF MK2 2022 Calendar"
-        price={10}
+      <Home
+        image="https://croatiafinestholidays.com/uploads/villas/176/Villa%20Lucy%20(10).jpg"
+        title="VILA LUCY PLUM"
+        price={750}
         description={
           <span>
             <div>12 unique designs</div>
@@ -19,8 +18,7 @@ const App = () => {
             </div>
           </span>
         }
-        availability={10}
-        category="Calendars"
+        availability={3}
       />
     </div>
   );
