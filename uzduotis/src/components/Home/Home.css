@@ -1,72 +1,74 @@
 .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    padding: 3rem;
+  display:flex;
+  justify-items: center;
+  justify-content: center;
+  width:800px;
+  padding: 1rem;
+  margin: 2rem auto;
+  border: 1px solid rgb(193, 239, 247);
+  border-radius: 7px;
+  background-color: rgb(245, 231, 215);
   }
   
   .image {
-    width: 100%;
-    height: 100%;
-    flex: 2;
+    width: 50px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex: 1;
+    justify-content: center;
   }
   
   img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
     object-fit: cover;
+    border-radius: 5px;
   }
-  
-
   
   .homeCard {
     flex: 1;
-    padding: 0 2rem;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 0 1rem;
   }
   
   .title {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
   }
   
-  .title p {
-    font-size: 3rem;
-  }
-  
-  
-  .price {
-    font-size: 2rem;
+  .title:hover, 
+  .price:hover{
+    color: rgb(86, 148, 241);
     font-weight: bold;
   }
   
-  .description div,
-  .category,
-  .availability {
-    font-size: 1.35rem;
+  .title p {
+    font-size: 1.5rem;
   }
   
-  .description span {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
   }
   
-  .availability span {
-    color: lightgreen;
+  .description, .availability span{
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
-  
+
+  .availability span{
+    color: rgb(236, 178, 53);
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .availability p{
+    color: rgb(86, 148, 241) ;
+  }
   .counter {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
   }
@@ -74,15 +76,17 @@
   .result {
     width: 40px;
     height: 40px;
-    background-color: rgb(227, 234, 240);
+    background-color: rgb(86, 148, 241);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid  rgb(193, 239, 247);
     border-radius: 2px;
   }
   
   .result:hover {
     font-weight: bold;
     cursor: pointer;
+    background: white;
+    color:rgb(86, 148, 241)
   }

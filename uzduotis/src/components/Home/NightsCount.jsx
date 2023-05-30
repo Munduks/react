@@ -6,7 +6,7 @@ const NightsCount = ({ count, increase, decrease }) => {
       <button className="result" onClick={decrease}>
         -
       </button>
-      <div className="result">{count}</div>
+      <div className="result">{count} </div>
       <button className="result" onClick={increase}>
         +
       </button>

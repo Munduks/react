@@ -1,8 +1,6 @@
 import { useState } from "react";
-import PropTypes from "prop-types";
-import Button from "../Button/Button";
-import NightsCount from "./NightsCount";
-import "./Home.css";
+/* import PropTypes from "prop-types";
+import "../Page.css";
 
 const Home = ({ image, title, price, description, availability }) => {
   const [count, setCount] = useState(3);
@@ -42,4 +40,4 @@ Home.propTypes = {
   availability: PropTypes.number.isRequired,
 };
 
-export default Home;
+export default Home; */

@@ -13,5 +13,4 @@ Button.propTypes = {
   children: PropTypes.element.isRequired,
   variant: PropTypes.oneOf(["text", "contained", "outlined"]),
 };
-
 export default Button;
