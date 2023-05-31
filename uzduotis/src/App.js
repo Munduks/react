@@ -1,22 +1,30 @@
-import Portfolio from "./components/Portfolio/Portfolio";
+// import Portfolio from "./components/Portfolio/Portfolio";
 // import Home from "./components/Home/Home";
 // import CardList from "./components/Portfolio/Cards";
+import Products from "./components/Product/Product";
 
 const App = () => {
   return (
     <div>
-      <Portfolio
-        title="Title"
-        text="In my portfolio, I showcase my best landscape photographs of mountain
-    photography, selected and organized by the countries in which they were
-    taken, including Iceland, Argentina, Switzerland, Norway, and Italy.  "
-        heading="Portfolio"
-        description="Welcome to my website, where I showcase Mountain Photography from around
-      the world. My collection features images of mountains in Patagonia,
-      capturing the breathtaking Patagonia landscape, and highlighting the
-      majestic Torres del Paine National Park photos."
-      />
+      <Products />
     </div>
+
+    //portfolio uzduotis
+    // <div>
+    //   <Portfolio
+    //     title="Title"
+    //     text="In my portfolio, I showcase my best landscape photographs of mountain
+    // photography, selected and organized by the countries in which they were
+    // taken, including Iceland, Argentina, Switzerland, Norway, and Italy.  "
+    //     heading="Portfolio"
+    //     description="Welcome to my website, where I showcase Mountain Photography from around
+    //   the world. My collection features images of mountains in Patagonia,
+    //   capturing the breathtaking Patagonia landscape, and highlighting the
+    //   majestic Torres del Paine National Park photos."
+    //   />
+    // </div>
+
+    //namu darbas susikuriant savo cards example
     // <div>
     //   <Home
     //     image="https://croatiafinestholidays.com/uploads/villas/176/Villa%20Lucy%20(10).jpg"
@@ -43,9 +51,6 @@ const App = () => {
     //     }
     //     availability={3}
     //   />
-    // </div>
-    // <div>
-    //   <HeroSection />
     // </div>
   );
 };

@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.productCard{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    
+}
+ .productCard div{
+    border: 1px solid lightgray;
+    margin: 20px;
+    text-align: center;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+button{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
