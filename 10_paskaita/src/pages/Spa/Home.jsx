@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import home from "../../components/Images/homeImage.jpg";
 // import "./index.css";
 
 const Home = () => {
@@ -9,11 +10,7 @@ const Home = () => {
       <Header />
       <main className="bodyStyle">
         <div className="photoStyle">
-          <img
-            className="homeImage"
-            src="https://www.dovanusala.lt/83622-thickbox_default/taju-nugaros-masazas-su-cinamono-aliejumi-masazo-namuose-azia-spa.jpg"
-            alt="/"
-          />
+          <img className="homeImage" src={home} alt="/" />
         </div>
       </main>
       <Footer />

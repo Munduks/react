@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../Images/logo.jpg";
 import "./Header.css";
 import Meniu from "./Meniu";
 
@@ -7,10 +8,7 @@ const Header = () => {
     <header className="headerStyle">
       <div className="logo">
         <Link to="/">
-          <img
-            src="https://www.aziamedispa.com/wp-content/uploads/2021/06/Azia_Logo_Color.png.webp"
-            alt="/"
-          />
+          <img src={logo} alt="/" />
         </Link>
       </div>
       <Meniu />

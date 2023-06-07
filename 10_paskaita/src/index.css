@@ -21,7 +21,7 @@ a{
 .bodyStyle{
   display:flex;
   flex-direction: column;
-  
+  min-height:65vh ;
   padding: 10px 20px;
   background-color: burlywood;
   align-items: center;
@@ -40,7 +40,7 @@ a{
   margin: 5px;
 }
 .imageAbout {
-  width: 50%;
+  width: 40%;
   align-items: center;
 }
 .newsStyle{
@@ -52,7 +52,32 @@ a{
 .newsCard{
   display: flex;
   flex-direction: column;
-  background-color: #f1f3f5;
+  background-color: #ffe4bc;
   padding: 10px;
   
+}
+.cardsStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+.serviceCard{
+ display: flex;
+ padding: 2rem;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+.serviceImg{
+  width: 100%;
+}
+.worksStyle{
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  gap: 2rem;
+}
+.worksImg {
+  width: 22vw;
+  height: 30vh;
 }

@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import about from "..//../components/Images/AboutImg.jpg";
 // import ".index.css";
 
 const About = () => {
@@ -29,11 +30,7 @@ const About = () => {
             atpalaiduojantį rytietiškų pojūčių pasaulį…
           </p>
         </p>
-        <img
-          className="imageAbout"
-          src="https://aziaspa.lt/wp-content/uploads/2015/10/IMG_6396-1024x683.jpg"
-          alt="/"
-        />
+        <img className="imageAbout" src={about} alt="/" />
       </main>
       <Footer />
     </>
