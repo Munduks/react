@@ -2,39 +2,41 @@ import React, { useEffect, useState } from "react";
 import "./Product.css";
 
 const Products = () => {
-  const [product, setProduct] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [products, setProducts] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   //produktu  istraukimas  ir issaugojimas
   useEffect(() => {
+    setIsLoading(true);
+
     fetch("https://golden-whispering-show.glitch.me/")
       .then((response) => response.json())
-      .then((product) => {
-        setProduct(product);
-        console.log(product);
-        setLoading(false);
+      .then((products) => {
+        setIsLoading(false);
+        setProducts(products);
       })
       .catch((error) => {
         console.error(error);
-        setLoading(false);
       });
   }, []);
 
   // produkto istrinimas
   const productDelate = (id) => {
-    const updateProduct = product.filter((item) => item.id !== id);
-    setProduct(updateProduct);
+    const updateProduct = products.filter((item) => item.id !== id);
+    setProducts(updateProduct);
   };
 
   //puslapio perkrovimo
-  if (loading) {
-    return <div>Loading..</div>;
-  }
+  // if (isLoading) {
+  //   return
+  // }
 
   return (
     <div>
-      <h1>Product list</h1>
+      {isLoading && <div>Loading..</div>}
+      {!isLoading && products.length === 0 && <div>No products found...</div>}
+
       <div className="productCard">
-        {product.map((item) => (
+        {products.map((item) => (
           <div key={item.id}>
             <img src={item.image} alt={item.title} />
             <span>{item.title}</span>

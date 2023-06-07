@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import Cards from "./Cards";
 import "./Portfolio.css";
 
+// sukurti heroir button componentus
 const Portfolio = ({ title, text, heading, description }) => {
   return (
     <div>
       <div className="heroSection">
-        <h1>{title}</h1>
         <p>{text}</p>
         <button>Button</button>
       </div>
