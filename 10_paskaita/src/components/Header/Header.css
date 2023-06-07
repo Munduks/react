@@ -1,0 +1,32 @@
+.headerStyle {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: rgba(180, 85, 2, 0.719);
+}
+
+.logo{
+    margin: 5px ;
+    width: 140px;
+}   
+.logo img{
+    width: 100%;
+}
+.navbarSection{
+   margin-top: 10px;
+}
+.navbarSection a {
+padding: 5px;
+margin:10px;
+letter-spacing: 2px;
+font-weight: bold;
+}
+/* .photoStyle {
+    width: 100vw;
+    height: calc(100vh - 8.5rem);
+}
+img{
+    width: 100%;
+} */
