@@ -1,48 +1,46 @@
 $shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
   rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
-.project-button{
-display: flex;
-justify-content: end;
-
-  // .button-possition{
-  // align-items: end;
-  // }  
-}
+  .project-button{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
   
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  .single-project {
-    min-width: 24%;
-  }
-}
-
-.project-card {
-  width: 300px;
-  height: 300px;
-  box-shadow: $shadow;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.3rem;
-
-  .image-container {
-    height: 75%;
-  }
-
-  img {
-    height: 100%;
-    width: 100%;
-    border-top-left-radius: 0.3rem;
-    border-top-right-radius: 0.3rem;
-  }
-
-  .title {
-    margin: 0;
-    padding: 1rem;
-    height: 25%;
-    font-size: 1.1rem;
-  }
-}
+    }
+      
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    
+      .single-project {
+        min-width: 24%;
+      }
+    }
+    
+    .project-card {
+      width: 300px;
+      height: 300px;
+      box-shadow: $shadow;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.3rem;
+    
+      .image-container {
+        height: 75%;
+      }
+    
+      img {
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+      }
+    
+      .title {
+        margin: 0;
+        padding: 1rem;
+        height: 25%;
+        font-size: 1.1rem;
+      }
+    }

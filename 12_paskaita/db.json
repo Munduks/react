@@ -83,6 +83,7 @@
       "id": 4
     },
     {
+      "id": 5,
       "userId": 3,
       "title": "GIRTEKA PARK",
       "description": "Vilniaus miesto, Laisvės prospekte plėtojamas verslo centras „Freedom 36“ rinkai pasiūlys 14.000 kv. m modernių biurų patalpų. Tai bus A+ energinės klasės pastatas, ant jo stogo sumontuotos saulės baterijos pagamins apie 10 proc. verslo centro metinio elektros energijos poreikio. Požeminėje automobilių stovėjimo aikštelėje  bus įrengta 370 vietų automobiliams, elektromobilių įkrovos vietos, dviračių saugyklos ir dviratininkams skirtos dušinės bei persirengimo kambariai. Verslo centras „Freedom 36“ plėtojamas laikantis tarptautinio tvarių pastatų standarto BREEAM, jam siekiama BREEAM „New Construction Very Good“ sertifikato.",
@@ -90,8 +91,7 @@
       "client": "UAB „Galio group“",
       "startingDate": "2020-11-01",
       "endingDate": "2022-03-11",
-      "people": [],
-      "id": 5
+      "people": []
     }
   ]
 }
